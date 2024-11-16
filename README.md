@@ -1,4 +1,4 @@
-# DOT-SSI-Wallet
+# SSI-Wallet
 
 A new Flutter project.
 

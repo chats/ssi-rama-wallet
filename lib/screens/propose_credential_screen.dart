@@ -3,6 +3,7 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:qr_flutter/qr_flutter.dart';
+import 'package:ssi_rama_wallet/screens/sockets/socket_demo_screen.dart';
 import 'package:web_socket_channel/web_socket_channel.dart';
 
 import '../constants/app_constants.dart';
@@ -45,7 +46,8 @@ class _ProposePresentationScreenState extends State<ProposePresentationScreen> {
                     connectionId: connectionId,
                     credDefId: widget.credDefId,
                     attributes: widget.attributes)
-                .then((value) => Get.off(() => SocketEventScreen()));
+                //.then((value) => Get.off(() => SocketEventScreen()));
+                .then((value) => Get.off(() => WebSocketDemo()));
             //.then((value) => Get.to(() => MessageScreen()));
 //            Get.back();
           }

@@ -39,8 +39,8 @@ class APIService {
     final url = '$_baseUrl/$api';
     final headers = {..._headers, ...optHeaders!};
     //print('headers = $headers');
-    print('url = $url');
-    print('body = $body.toString()');
+//    print('url = $url');
+//    print('body = $body.toString()');
 
     final response = await http.post(Uri.parse(url),
         body: body, headers: headers, encoding: Encoding.getByName(_encoding));

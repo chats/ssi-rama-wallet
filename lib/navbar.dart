@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:material_symbols_icons/material_symbols_icons.dart';
+import 'package:ssi_rama_wallet/screens/home/health_wallet_home.dart';
 
 import 'screens/credentials/credential_screen.dart';
 import 'features/history/history_screen.dart';
@@ -19,7 +20,8 @@ class _NavbarState extends State<Navbar> {
   int _selectedIndex = 0;
 
   static final List<Widget> _bodyWidgets = <Widget>[
-    const HomeScreen(),
+//    const HomeScreen(),
+    const HealthWalletHome(),
 //    const HomeScreen3(),
     const CredentialsV2Screen(),
     //const TouristGuideLicenseListScreen(),

@@ -4,6 +4,7 @@ import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:qr_code_scanner/qr_code_scanner.dart';
+import 'package:ssi_rama_wallet/screens/sockets/socket_demo_screen.dart';
 
 import '../services/core/connection_service.dart';
 import 'sockets/socket_event_screen.dart';
@@ -83,7 +84,8 @@ class _ScanQrCodeScreenState extends State<ScanQrCodeScreen> {
                                         receiveOOBInvitation(value)
                                             .then((value) => {setState(() {})});
                                         await controller?.resumeCamera();
-                                        Get.to(SocketEventScreen())!
+                                        //Get.to(SocketEventScreen())!
+                                        Get.to(WebSocketDemo())!
                                             .then((value) => {});
                                       }
                                     },

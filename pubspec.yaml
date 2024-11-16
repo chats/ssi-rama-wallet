@@ -40,9 +40,10 @@ flutter:
 
     assets:
         - assets/images/
-        - assets/images/dot/
-        - assets/images/vertex/
-        - assets/images/nova_hospital/
+        - assets/images/rama/
+#        - assets/images/dot/
+#        - assets/images/vertex/
+#        - assets/images/nova_hospital/
         - assets/icons/
         # - assets/icons/dot/
 

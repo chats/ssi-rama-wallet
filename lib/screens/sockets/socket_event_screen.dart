@@ -182,7 +182,7 @@ class _SocketEventScreenState extends State<SocketEventScreen> {
     final state = payload["state"];
     return Container(
         decoration: BoxDecoration(
-            color: theme.colorScheme.surfaceContainerHighest,
+            color: Colors.green.shade50,
             borderRadius: BorderRadius.circular(20)),
         child: Builder(
           builder: (context) {

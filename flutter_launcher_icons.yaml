@@ -1,11 +1,11 @@
 flutter_launcher_icons:
     android: true
     ios: true
-    image_path: "assets/images/logo/logo.png"
-    image_path_ios: "assets/images/logo/logo.png"
+    image_path: "assets/images/rama/rama-logo-500.png"
+    image_path_ios: "assets/images/rama/rama-logo-500.png"
     remove_alpha_ios: true
     web:
         generate: true
-        image_path: "assets/images/logo/logo.png"
+        image_path: "assets/images/rama/rama-logo-500.png"
         background_color: "#fefefe"
-        theme_color: "#303F9F"
+        theme_color: "#6BBBA4"

@@ -11,10 +11,13 @@ const String agentKey = "ntpSOGi5eaBFeszxOtNsuAMpvhntkKjz";
 
 //const String agentUrl = "http://210.246.185.42:8025";
 //const String agentWss = "ws://210.246.185.42:8025/ws";
-const String agentUrl = "https://vtx-employee-api.aecinfra.app"; // updated 2024-09-25
-const String agentWss = "wss://vtx-employee-api.aecinfra.app/ws"; // updated 2024-09-25
-const String agentKey = "FS1PkiBs22IGhMnaUoQaRjJy1orTt31r";
+//const String agentUrl = "https://vtx-employee-api.aecinfra.app"; // updated 2024-09-25
+//const String agentWss = "wss://vtx-employee-api.aecinfra.app/ws"; // updated 2024-09-25
+//const String agentKey = "FS1PkiBs22IGhMnaUoQaRjJy1orTt31r";
 
+const String agentUrl = "https://rama2.cams.dev/holder-api/"; // using rama
+const String agentWss = "wss://rama2.cams.dev/holder-api/ws"; // using rama
+const String agentKey = "bdhnpap9prggat5vmj5zybhe4jfz70gt";
 /*
 const String examSeatCredDefs = "8dA47QhbtBa1bBA8XrAum2:3:CL:30:examseat2";
 const String examCertCredDefs = "8dA47QhbtBa1bBA8XrAum2:3:CL:28:examcert1";
